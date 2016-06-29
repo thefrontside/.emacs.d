@@ -32,7 +32,6 @@
 
 ;;; Code:
 (require 'easymenu)
-(require 'imenu-anywhere)
 (require 'crux)
 
 (defvar prelude-mode-map
@@ -66,7 +65,6 @@
     (define-key map (kbd "C-c TAB") 'crux-indent-rigidly-and-copy-to-clipboard)
     (define-key map (kbd "C-c I") 'crux-find-user-init-file)
     (define-key map (kbd "C-c S") 'crux-find-shell-init-file)
-    (define-key map (kbd "C-c i") 'imenu-anywhere)
     ;; extra prefix for projectile
     (define-key map (kbd "s-p") 'projectile-command-map)
     ;; make some use of the Super key
