@@ -56,6 +56,7 @@
 ;; drag stuff rules!
 (prelude-require-package 'drag-stuff)
 (drag-stuff-global-mode)
+(drag-stuff-define-keys)
 
 ;; this enables the dragstuff keys in terminal mode for iterm2
 (add-hook 'tty-setup-hook
